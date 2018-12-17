@@ -113,6 +113,9 @@ p, span {
 .header-button_0, .header-button:hover {
 	background: white;
 	color: #005388;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
 
 .header-button_0:hover {
@@ -221,6 +224,13 @@ p, span {
 	padding: 15px 35px 18px 35px;
 	border-radius: 27px;
 	cursor: pointer;
+}
+
+.action-submit:hover {
+	background-color: blue;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
 
 /* About */
