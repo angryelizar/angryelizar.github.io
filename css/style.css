@@ -52,7 +52,7 @@ p, span {
 
 /*HEADER*/
 .header {
-/*	display: none;*/
+	/* display: none; */
 	background: url('../img/bg-image.jpg') top center 
 	no-repeat;
 	background-size: cover;
@@ -178,7 +178,7 @@ p, span {
 
 /* Action */ 
 .action {
-/*	display: none;*/
+	/* display: none; */
 	padding: 50px 0;
 	color: white;
 	background-color: #4c4c4c;
@@ -245,7 +245,7 @@ p, span {
 }
 
 .about-experience {
-	width: 600px;
+	max-width: 600px;
 }
 
 .about-description {
@@ -284,11 +284,10 @@ p, span {
 }
 
 .contact-value {
-	width: 200px;
+	max-width: 200px;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 31px;
-	letter-spacing: 0.9px;
 }
 
 .contact-link {
@@ -356,7 +355,7 @@ p, span {
 }
 
 .form-description {
-	width: 300px;
+	max-width: 300px;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 16px;
@@ -370,7 +369,6 @@ p, span {
 
 /* Footer */
 .footer {
-	width: 1600px;
 	height: 180px;
 	background-color: #005488;
 	width: 100%;
@@ -391,7 +389,6 @@ p, span {
 }
 
 .footer-politic {
-	width: 211px;
 	height: 12px;
 	color: #cccccc;
 	font-family: Roboto;
@@ -403,7 +400,7 @@ p, span {
 }
 
 .footer-ofert {
-	width: 108px;
+	max-width: 108px;
 	height: 12px;
 	color: #cccccc;
 	font-family: Roboto;
